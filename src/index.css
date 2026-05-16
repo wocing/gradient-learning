@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1a1f35;
+  --color-secondary: #252b47;
+  --color-accent-orange: #ff6b4a;
+  --color-accent-blue: #4a9eff;
+  --color-accent-purple: #8b5cf6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+  background-color: var(--color-primary);
+  color: #e0e0e0;
+}
+
+.math-formula {
+  font-family: KaTeX_Main, "Times New Roman", serif;
+}
